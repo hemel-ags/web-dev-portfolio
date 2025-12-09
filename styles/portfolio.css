@@ -44,6 +44,15 @@
     background-color: #FFF8F3;
 }
 
+.text-center{
+    text-align: center;
+}
+
+main section{
+    margin-top: 130px;
+    /* margin-bottom: 130px; */
+}
+
 /* Header */
 
 .header{
@@ -114,9 +123,9 @@ nav ul{
 
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 130px 157px;
     text-align: center;
-    margin-top: 130px; /* banner r about er majher gap ta dise */
+   
 }
 
 .item-description{
@@ -138,4 +147,79 @@ nav ul{
 main{
     max-width: 1140px; /* ei ta diye Banner er nicher sob kicu er max width set korse */
     margin: 0 auto; /* ei ta diye Banner er nicher sob kicu k middle a anse */
+}
+
+/* What I do */
+
+.whatIdo-description{
+    padding: 0 116px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    /* box-shadow: 0px 6px 50px 0px; */
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* position: relative;
+    padding-top: 70px; */
+}
+
+.icon{
+  /* position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px; /* adjust size as needed */
+  height: 50px; */
+}
+
+/* My Resume */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-titel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.experience-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+.column-resume-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.resume-btn{
+    margin-top: 30px;
+    text-align: center;
 }
